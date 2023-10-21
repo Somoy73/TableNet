@@ -1,0 +1,14 @@
+pytesseract
+opencv-python
+numpy
+pandas
+Pillow
+tqdm
+torch
+albumentations
+torchvision
+scikit-learn
+pytorch_model_summary
+matplotlib
+efficientnet_pytorch
+seaborn
