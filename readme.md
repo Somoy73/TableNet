@@ -16,11 +16,23 @@ ICDAR2019 dataset contains 2030 table images with PASCAL VOC format annotations.
 More info can be found in the [Test Notebook](Model%20Implementations/model_testing_note.ipynb')
 
 <br/>
+
 Testing image on Marmot Dataset:
-![Image from Marmot](marmot_test.png) ![Table Image](marmot_test_table.png)
+
+
+![Image from Marmot](marmot_test.png) 
+
+
+![Table Image](marmot_test_table.png)
+
+
 
 Testing image on ICDAR 2019:
-![Image from ICDAR2019](icdar2019_test.png) ![Tables Detected](icdar2019_test_tables.png)
+
+
+![Image from ICDAR2019](icdar2019_test.png) 
+
+![Tables Detected](icdar2019_test_tables.png)
 
 Some keynotes regarding the changes we had to made from the original repo:
 - Install required libraries following requirements.txt
