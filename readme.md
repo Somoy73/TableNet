@@ -18,6 +18,8 @@ trained checkpoints in the future, following a similarly trained model as the or
 **Unlike the implementation in the original paper which was  tested against ICDAR2013, we tested the model against ICDAR2019 Table dataset.**
 ICDAR2019 dataset contains 2030 table images with PASCAL VOC format annotations. We picked 34 images and annotated XMLs and then extracted the data and predicted using the trained model weights as was done in the original paper.
 More info can be found in the [Test Notebook](Model%20Implementation/model_testing_note.ipynb)
+The orignal ground truth labels and boundary boxes from the ICDAR2019 are stored in this CSV : [Ground Truth CSV](ground_truth.csv)
+The model predicted boundary boxes are stored in this CSV : [Model Prediction CSV](predicted.csv)
 
 <br/>
 
