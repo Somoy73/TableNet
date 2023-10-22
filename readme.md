@@ -9,6 +9,11 @@ Read the Paper here: [TableNet Paper](https://ieeexplore.ieee.org/document/89780
 Model Architecture Overview (May change based on the Encoder used):
 ![TableNet arch](modelarch.png)
 
+
+The Marmot Dataset as well as the Annotated Data can be found here: [Marmot Dataset v1.0](https://www.icst.pku.edu.cn/cpdp/docs/20190424190300041510.zip) ;
+[Marmot Extended Dataset by the Authors](https://drive.google.com/drive/folders/1QZiv5RKe3xlOBdTzuTVuYRxixemVIODp)
+
+
 The Saved Model Checkpoints and the DenseNet121 Pre-trained Weights can be found here:
 [TableNet Saved Weights](https://abofi-my.sharepoint.com/:f:/g/personal/somoy_barua_abo_fi/EgFgk_H3uV9Dmo_7eLvYZB4BCaUaKJ1PlFzxcV6OxVYrdA?e=KR9hxd)
 
@@ -19,7 +24,8 @@ trained checkpoints in the future, following a similarly trained model as the or
 
 We tested the model against ICDAR2019 Table dataset. ICDAR2019 dataset contains 2030 table images with PASCAL VOC format annotations. We picked 34 images and annotated XMLs and then extracted the data and predicted using the trained model weights as was done in the original paper.
 More info can be found in the [Test Notebook](Model%20Implementation/model_testing_note.ipynb)
-The orignal ground truth labels and boundary boxes from the ICDAR2019 are stored in this CSV : [Ground Truth CSV](ground_truth.csv)
+The orignal ground truth labels and boundary boxes from the ICDAR2019 are stored in this CSV : [Ground Truth CSV](ground_truth.csv).
+
 The model predicted boundary boxes are stored in this CSV : [Model Prediction CSV](predicted.csv)
 
 <br/>
