@@ -12,6 +12,8 @@ Model Architecture Overview (May change based on the Encoder used):
 The Saved Model Checkpoints and the DenseNet121 Pre-trained Weights can be found here:
 [TableNet Saved Weights](https://abofi-my.sharepoint.com/:f:/g/personal/somoy_barua_abo_fi/EgFgk_H3uV9Dmo_7eLvYZB4BCaUaKJ1PlFzxcV6OxVYrdA?e=KR9hxd)
 
+Information of the Trained parameters, accuracy and similar things can be found here: [Train Info Text](300.txt)
+
 Unfortunately, due to how heavy the model is, the model has so far been trained only upto 300 epochs. However, we will upload more rigorously 
 trained checkpoints in the future, following a similarly trained model as the original paper. 
 
