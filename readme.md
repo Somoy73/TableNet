@@ -12,11 +12,11 @@ Model Architecture Overview (May change based on the Encoder used):
 The Saved Model Checkpoints and the DenseNet121 Pre-trained Weights can be found here:
 [TableNet Saved Weights](https://abofi-my.sharepoint.com/:f:/g/personal/somoy_barua_abo_fi/EgFgk_H3uV9Dmo_7eLvYZB4BCaUaKJ1PlFzxcV6OxVYrdA?e=KR9hxd)
 
-Unfortunately, due to how heavy the model is, the model has so far been trained only upto 300 epochs. However, wwe will upload more rigorouslyy 
+Unfortunately, due to how heavy the model is, the model has so far been trained only upto 300 epochs. However, we will upload more rigorously 
 trained checkpoints in the future, following a similarly trained model as the original paper. 
 
-**Unlike the original paper who tested it against ICDAR2013, we tested the model against ICDAR2019 Table dataset.**
-ICDAR2019 dataset contains 2030 table images with PASCAL VOC format annotations. We as the original paper, picked 34 images and annotated XMLs and then extracted the data and predicted using the trained model weights.
+**Unlike the implementation in the original paper which was  tested against ICDAR2013, we tested the model against ICDAR2019 Table dataset.**
+ICDAR2019 dataset contains 2030 table images with PASCAL VOC format annotations. We picked 34 images and annotated XMLs and then extracted the data and predicted using the trained model weights as was done in the original paper.
 More info can be found in the [Test Notebook](Model%20Implementation/model_testing_note.ipynb)
 
 <br/>
@@ -38,12 +38,12 @@ Testing image on ICDAR 2019:
 
 ![Tables Detected](icdar2019_test_tables.png)
 
-Some keynotes regarding the changes we had to made from the original repo:
+Some keynotes regarding the changes we had to make from the original repo:
 - Install required libraries following requirements.txt
     - Some of the libraries no longer exist or are backdated and threw an error.
     - I.e: Sklearn is now scikit-learn
     - Changed requirements.txt file to accommodate the changes in the library name.
-    - efficientnet_pytorch - was not mentioned in the requirements.txt however, is required to run the code.
+    - efficientnet_pytorch - was not mentioned in the requirements.txt however, it is required to run the code.
 - Running the Training:
     - Needed to change all the directories within the path_constants.py file to match that of our local drive.
 - Running the Tests:
