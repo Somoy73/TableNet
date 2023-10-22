@@ -1,4 +1,4 @@
-**TableNET - Implementation**
+**Implementation of TableNet: Deep Learning model for end-to-end Table detection and Tabular data extraction from Scanned Document Images**
 
 
 This repo contains the code for TableNet implementation. 
@@ -53,6 +53,4 @@ Some keynotes regarding the changes we had to make from the original repo:
 - Added additional scripts for testing the model against ICDAR2019
 
 This repo is inspired from two repos:
-[TableNet - Pytorch](https://github.com/asagar60/TableNet-pytorch)
-
-[TableNet2DF](https://github.com/LidorPrototype/TableNetTable2df/tree/master)
+[TableNet - Pytorch](https://github.com/asagar60/TableNet-pytorch) And [TableNet2DF](https://github.com/LidorPrototype/TableNetTable2df/tree/master)
