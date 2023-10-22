@@ -1,5 +1,9 @@
 **TableNET - Implementation**
+
+
 This repo contains the code for TableNet implementation. 
+
+
 Read the Paper here: [TableNet Paper](https://ieeexplore.ieee.org/document/8978013)
 
 Model Architecture (with VGG-19 Encoder):
