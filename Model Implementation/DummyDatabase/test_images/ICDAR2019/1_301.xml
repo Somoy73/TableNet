@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>1_301.jpg</filename>
+	<path>/media/devashish/Local Disk/Research/Projects/Table Project/Marmot 2020/Images/1_301.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>589</width>
+		<height>879</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>table</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>13</xmin>
+			<ymin>209</ymin>
+			<xmax>571</xmax>
+			<ymax>706</ymax>
+		</bndbox>
+	</object>
+</annotation>

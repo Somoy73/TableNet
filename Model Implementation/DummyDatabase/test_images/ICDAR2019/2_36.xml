@@ -1,0 +1,38 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>2_36.jpg</filename>
+	<path>/media/devashish/Local Disk/Research/Projects/Table Project/Marmot 2020/Images/2_36.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>572</width>
+		<height>870</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>table</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>13</xmin>
+			<ymin>514</ymin>
+			<xmax>559</xmax>
+			<ymax>664</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>table</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>13</xmin>
+			<ymin>64</ymin>
+			<xmax>558</xmax>
+			<ymax>352</ymax>
+		</bndbox>
+	</object>
+</annotation>
