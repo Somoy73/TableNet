@@ -13,7 +13,7 @@ trained checkpoints in the future, following a similarly trained model as the or
 
 **Unlike the original paper who tested it against ICDAR2013, we tested the model against ICDAR2019 Table dataset.**
 ICDAR2019 dataset contains 2030 table images with PASCAL VOC format annotations. We as the original paper, picked 34 images and annotated XMLs and then extracted the data and predicted using the trained model weights.
-More info can be found in the [Test Notebook](Model%20Implementations/model_testing_note.ipynb)
+More info can be found in the [Test Notebook](Model%20Implementation/model_testing_note.ipynb)
 
 <br/>
 
