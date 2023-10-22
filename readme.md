@@ -61,5 +61,29 @@ Some keynotes regarding the changes we had to make from the original repo:
     - PIL -> Image.ANTIALIAS method has been removed from the library after PIL 10.0 update, which is necessary for testing our model. We can now use PIL.Image.Resampling.LANCZOS
 - Added additional scripts for testing the model against ICDAR Table dataset.
 
+
+Training Info (for 1130 Epochs):
+
+Table:
+
+
+![Table Accuracy](table_acc.png)
+
+
+![Table F1](table_f1.png)
+
+
+Column:
+
+
+![Column Accuracy](column_acc.png)
+
+
+
+![Column F1-score](column_f1.png)
+
+
+
+
 This repo is inspired from two repos:
 [TableNet - Pytorch](https://github.com/asagar60/TableNet-pytorch) And [TableNet2DF](https://github.com/LidorPrototype/TableNetTable2df/tree/master)
