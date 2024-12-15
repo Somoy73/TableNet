@@ -1,7 +1,7 @@
 **Implementation of TableNet: Deep Learning model for end-to-end Table detection and Tabular data extraction from Scanned Document Images**
 
 
-In this repo we tried to implement and test the reproducibility of TableNet. The entire report of the Reproduction can be found here: [TableNet: Reproduction Report](https://drive.google.com/file/d/1nTRu3eVqyVQ9fY_PEizCIDGsZmaKae0W/view?usp=sharing)
+This repo contains the code for our implementation and tests for the reproducibility of TableNet. The entire report of the Reproduction can be found here: [TableNet: Reproduction Report](https://drive.google.com/file/d/1nTRu3eVqyVQ9fY_PEizCIDGsZmaKae0W/view?usp=sharing)
 
 
 Read the Paper here: [TableNet Paper](https://ieeexplore.ieee.org/document/8978013)
